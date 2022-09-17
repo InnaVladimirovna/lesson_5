@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&display=swap');
+
+@font-face {
+   font-family: 'Glamour';
+   src: url("../fonts/Glamour.woff2")  format("woff2"),  url("../fonts/Glamour.woff")  format("woff");
+   font-display: swap;
+   font-style: normal;
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: 'Montserrat';
+   src: url("../fonts/Montserrat-Regular.woff2")  format("woff2"),  url("../fonts/Montserrat-Regular.woff")  format("woff");
+   font-display: swap;
+   font-style: normal;
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: 'Montserrat';
+   src: url("../fonts/Montserrat-Medium.woff2")  format("woff2"),  url("../fonts/Montserrat-Medium.woff")  format("woff");
+   font-display: swap;
+   font-style: normal;
+   font-weight: 500;
+}
+
+/* -----------------------------------HEADER------------------------------------------ */
+body{
+   width: 100%;
+   background-color: black;
+}
+
+header{
+   background-color: black;
+}
+header   img{
+   width: 100%;
+}
+header   h1{
+   font-family: "Glamour";
+   font-weight: 400;
+   color: #fff;
+   font-size: 70px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+header > p{
+   font-family: "Comfortaa";
+   font-weight: 500;
+   text-align: justify;
+   color: #fff;
+   font-size: 30px;
+   line-height: 1.2;
+   letter-spacing: 2px;
+}
+
+/* --------------------------------------MAIN----------------------------------------------------- */
+.wraper{
+   width: 60%;
+   margin: 0   auto;
+   background-color: #fff;
+}
+
+h2{
+   font-family: "Merriweather";
+   font-style: italic;
+   font-weight: 900;
+   font-size: 40px;
+   text-align: center;
+   margin: 10px   0;
+}
+.biography  p{
+   font-family: "Montserrat";
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 1;
+   letter-spacing: 1.5px;
+   margin: 10px;
+}
+img{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.history p{
+   font-family: "Merriweather";
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1;
+   letter-spacing: 1.5px;
+   margin: 10px;
+}
+
+
+.expansion  p{
+   font-family: "Montserrat";
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 1;
+   letter-spacing: 1.5px;
+   margin: 10px;
+}
+
+.quote{
+   font-family: "Cormorant";
+   font-style: italic;
+   font-weight: 300;
+   font-size: 10px;
+   color: lightseagreen;
+   word-spacing: 5px;
+}
+.empire  p{
+   font-family: "Merriweather";
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   letter-spacing: 1.5px;
+   margin: 10px;
+   word-spacing: 5px;
+}
+footer{
+   background-color: black;
+}
+h3{
+   font-family: "Merriweather";
+   font-style: italic;
+   font-weight: 900;
+   font-size: 25px;
+   color: #fff;
+   margin: 35px   0  15px  55px;
+}
+footer   p{
+   font-family: "Montserrat";
+   font-weight: 400;
+   color: #fff;
+   text-align: justify;
+   margin: 40px;
+
+}
